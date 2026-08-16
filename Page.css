@@ -7,7 +7,20 @@ Detalles: #A67C52
 Texto: #2F2F2F
 Tarjetas: #FFFCF5
 */
+* {
+    margin: 0%;
+    padding: 0%;
+}
 body
 {
 background-color: #F5F1E8;
 }
+.milanesa{
+    width: 300px;
+    height: 100px;
+        background-color: white;
+    position: relative;
+    top: -4px;
+    
+}
+

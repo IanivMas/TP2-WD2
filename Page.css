@@ -11,9 +11,74 @@ Tarjetas: #FFFCF5
     margin: 0%;
     padding: 0%;
 }
-body
-{
-background-color: #F5F1E8;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
 
+.contenedor h1 {
+    margin-left: 24%;
+}
+
+header div:last-child {
+    text-align: center;
+}
+
+.contenedor2 {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor2 img:hover
+{
+    width: 310px;
+    height: 310px;
+}
+.contenedor2 h3:hover {
+    background-color: blue;
+    color: white;
+}
+.contenedor2 h3 {
+    text-align: center;
+    position: relative;
+    top: 92%;
+    background: white;
+}
+.contenedor3
+{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor3 img:hover{
+height: 335px;
+}
+.panel {
+    margin-left: 6%;
+}
+
+main {
+    background-color: #F5F1E8;
+}
+
+main h2 {
+    text-align: center;
+    margin: 2%;
+}
+
+main h5 {
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+img {
+    border-radius: 10px;
+}

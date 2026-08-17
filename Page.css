@@ -7,7 +7,104 @@ Detalles: #A67C52
 Texto: #2F2F2F
 Tarjetas: #FFFCF5
 */
-body
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-top: 0.5%;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 0.5%;
+   
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor h1 {
+    margin-left: 24%;
+}
+
+header div:last-child {
+    text-align: center;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contenedor img {
+    position: relative;
+    left: 100px;
+}
+.contenedor button
 {
-background-color: #F5F1E8;
+    position: relative;
+    right: 100px;
+}
+
+.contenedor2 img:hover {
+    width: 310px;
+    height: 310px;
+}
+
+.contenedor2 h3:hover {
+    background-color: blue;
+    color: white;
+}
+
+.contenedor2 h3 {
+    text-align: center;
+    position: relative;
+    top: 92%;
+    background: white;
+}
+
+.contenedor3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor3 img:hover {
+    height: 335px;
+}
+
+.panel {
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+main {
+    background-color: #F5F1E8;
+}
+
+main h2 {
+    text-align: center;
+    margin: 2%;
+}
+
+main h5 {
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+img {
+    border-radius: 10px;
 }

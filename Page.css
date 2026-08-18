@@ -104,7 +104,6 @@ main h5 {
     border: 1px solid black;
     padding: 1%;
 }
-
 img {
     border-radius: 10px;
 }
@@ -114,6 +113,5 @@ form{
     padding-bottom: 36%;
 }
 form div {
-    margin: 1%;
-    
+    margin: 1%;   
 }

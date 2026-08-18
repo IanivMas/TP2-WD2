@@ -113,5 +113,17 @@ form{
     padding-bottom: 36%;
 }
 form div {
-    margin: 1%;   
+    margin: 1%;
+    
+}
+footer {
+    padding-top: 0.5%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 0.5%;
+}
+footer div {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

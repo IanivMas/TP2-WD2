@@ -52,7 +52,7 @@ header nav ul li {
     border-radius: 5px;
 }
 
-nav {
+nav ul li{
     list-style: none;
 }
 
@@ -177,10 +177,27 @@ footer {
     text-align: center;
     padding-bottom: 0.5%;
 }
+footer h3{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 
-footer div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+footer p{
+    margin-bottom: 1%;
+}
+
+footer div p{
+    padding-top: 5%;
+}
+footer nav ul li{
+    padding-top: 5%;
+}
+
+footer section {
+    width: 79%;
+    margin-left: 12%;
+    display: flex;
+    justify-content: space-around;
 }
 
 img {
@@ -208,6 +225,7 @@ h3 {
 
 button {
     color: #4F5D45;
+    background-color: beige;
     font-family: "Libre Baskerville", serif;
 }
 

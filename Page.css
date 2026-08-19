@@ -59,6 +59,7 @@ nav {
 main {
     background-color: #F5F1E8;
     padding-top: 8%;
+    padding-bottom: 10%;
 }
 
 main h2 {
@@ -149,15 +150,13 @@ main h5 {
 form {
     margin-left: 30%;
     text-align: center;
-    padding-bottom: 25%;
 
+    padding-bottom: 14%;
     padding-top: 1%;
     background-color: white;
     width: 40%;
-    height: 1%;
     border-radius: 50px;
     box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.5);
-
 }
 
 form div {
@@ -228,4 +227,22 @@ a {
 
 nav:hover {
     color: #7A4E32;
+}
+
+.bloqueado {
+
+    right: 5%;
+    bottom: 50px;
+    position: fixed;
+    font-size: 23px;
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+
+
+}
+
+.bloqueado:hover {
+    background-color: blue;
+    color: white;
 }

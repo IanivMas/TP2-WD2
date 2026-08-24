@@ -28,12 +28,14 @@ header {
 
 .contenedor img {
     position: relative;
-    left: 100px;
+    width: 35%;
+    height: auto;
+    left: 100%;
 }
 
 .contenedor button {
     position: relative;
-    right: 100px;
+    right: 56%;
 }
 
 header div:last-child {
@@ -93,17 +95,23 @@ main h5 {
 }
 
 .panel {
-    margin-left: 6%;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
 }
 
 .contenedor2 {
     display: flex;
     justify-content: space-evenly;
 }
-
+.contenedor2 img
+{
+    width: 100%;
+    height: auto;
+}
 .contenedor2 img:hover {
-    width: 310px;
-    height: 310px;
+    width: 102%;
+    height:auto ;
 }
 
 .contenedor2 h3:hover {

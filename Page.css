@@ -23,19 +23,21 @@ header {
 }
 
 .contenedor h1 {
-    margin-left: 24%;
+    margin-left: 25%;
 }
 
 .contenedor img {
-    position: relative;
+        position: relative;
     width: 35%;
     height: auto;
-    left: 100%;
+    right:97% ;
 }
 
 .contenedor button {
     position: relative;
-    right: 56%;
+    left: 160%;
+    font-size: 102%;
+    
 }
 
 header div:last-child {
@@ -46,12 +48,18 @@ header nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-left: 83%;
+    
 }
 
 header nav ul li {
-    display: inline-block;
-    margin: 1%;
+    margin: 30%;
     border-radius: 5px;
+}
+
+header nav ul li a {
+    display: flex;
+    justify-content: space-around;
 }
 
 nav ul li{
@@ -79,7 +87,7 @@ main h5 {
 }
 
 .buscador {
-    margin-left: 41%;
+    margin-left: 40%;
     text-align: center;
     margin-bottom: 2%;
     background-color: white;
@@ -115,15 +123,16 @@ main h5 {
 }
 
 .contenedor2 h3:hover {
-    background-color: blue;
+    background-color: navy;
     color: white;
+     width: 102%;
 }
 
 .contenedor2 h3 {
+  
     text-align: center;
-    position: relative;
-    top: 92%;
     background: white;
+    margin-bottom: 1%;
 }
 
 .contenedor3 {
@@ -245,7 +254,7 @@ button {
 }
 
 p {
-    color: #A67C3D;
+    color: #bf893b;
     font-family: "Libre Baskerville", serif;
 }
 
@@ -255,7 +264,7 @@ button:hover {
 }
 
 a {
-    color: #9A7135;
+    color: #bf893b;
     text-decoration: none;
 }
 
